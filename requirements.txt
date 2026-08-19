@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+torch
+tqdm
+requests
+sentence-transformers
+scikit-learn
+plotly
+topmost
+gensim
+mcp>=2.0.0

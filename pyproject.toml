@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-wsgtm"
+version = "1.0.0"
+description = "LLM-WSGTM topic modeling research code"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "torch",
+  "tqdm",
+  "requests",
+  "sentence-transformers",
+  "scikit-learn",
+  "plotly",
+  "topmost",
+  "gensim",
+  "mcp>=2.0.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["llm_wsgtm*"]
